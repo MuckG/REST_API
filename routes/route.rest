@@ -1,0 +1,27 @@
+//Using Rest Clint extension to allow sending of REST requests
+GET http://localhost:3000/subscribers
+
+###
+GET  http://localhost:3000/subscribers/6280d555cb0131fa70df0062
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Maurice Gordon",
+    "subscribeToChannel": "Web Dev Simplified"
+}
+
+###
+
+DELETE  http://localhost:3000/subscribers/6280d555cb0131fa70df0062
+
+###
+
+PATCH  http://localhost:3000/subscribers/6280db889be09f20ed4182c2
+Content-Type: application/json
+
+{
+    "name": "M Gordon"
+}
