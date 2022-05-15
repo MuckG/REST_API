@@ -25,3 +25,7 @@ Content-Type: application/json
 {
     "name": "M Gordon"
 }
+
+###
+
+GET http://localhost:3000/subscribers/get
